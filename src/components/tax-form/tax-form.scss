@@ -1,0 +1,27 @@
+form{
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto;
+    .form-group{
+        margin-bottom: 20px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        label{
+            display: block;
+            margin-bottom: 5px;
+        }
+        input:not([type="checkbox"]):not([type="radio"]), [type="submit"]{
+            display: block;
+            text-transform: capitalize;
+            width: 100%;
+            height: 30px;
+            padding: 5px;
+        }
+        .error{
+            color: red;
+            margin-top: 5px;
+        }
+
+    }
+}

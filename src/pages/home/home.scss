@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+.main-layout {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.btn {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid;
+  text-decoration: none;
+  color: #7777e8;
+  background-color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+  &:hover {
+    color: #fff;
+    background-color: #7777e8;
+  }
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-spacing: 0;
+  tr {
+    td,
+    th {
+      border: 1px solid;
+    }
+  }
+}
